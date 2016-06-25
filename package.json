@@ -1,0 +1,19 @@
+{
+  "name": "jwksd",
+  "version": "0.0.1",
+  "description": "Serves cryptographic keys in JWK Set format.",
+  "private": true,
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jared.hanson@modulate.io",
+    "url": "http://www.modulate.io/"
+  },
+  "dependencies": {
+    "bixby-express": "^0.1.5",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  }
+}
